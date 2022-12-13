@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CucumberWithSelenium:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="81a530f1-ed7a-47a9-a99a-c25e9ac29d3c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/../../../../Escritorio" userTempatePath="" />
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../CucumberWithSelenium-OwnFrame\exportToHTML" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="automationWeb2" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="automationWeb2" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="VariasPagsExcel" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GGWqcybQqKVdNZZPQGcP5BExfV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Documents/Programacion Codigo/WebScraping/WebScraping Selenium - Farmacity&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright.filetypes.JAVA&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\Programacion Codigo\CucumberWithSelenium-OwnFrame" />
+      <recent name="D:\Documents\Programacion\CucumberWithSelenium-OwnFrame\src\test\resources\driver" />
+      <recent name="D:\Documents\Programacion\CucumberWithSelenium-OwnFrame" />
+      <recent name="D:\Documents\Programacion\NybbleAcademy\FinalProject-Nybble" />
+      <recent name="D:\Documents\Programacion\NybbleAcademy\FinalProject-Nybble\src\test\resources\features" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\Programacion\CucumberWithSelenium-OwnFrame\docs" />
+      <recent name="D:\Documents\Programacion\NybbleAcademy\FinalProject-Nybble\src\test\resources" />
+      <recent name="D:\Documents\Programacion\NybbleAcademy\FinalProject-Nybble" />
+      <recent name="D:\Documents\Programacion\NybbleAcademy\FinalProject-Nybble\reportsSaved\edge\auth" />
+      <recent name="D:\Documents\Programacion\NybbleAcademy\FinalProject-Nybble\reportsSaved\headless\settings" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cleanTest.todoly" />
+      <recent name="pages.todoIstExam" />
+      <recent name="cleanTest" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.TestRunner (1)">
+    <configuration name="ExcelGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utils.ExcelGenerator" />
+      <module name="CucumberWithSelenium.test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Nuevo" type="Application" factoryName="Application">
+      <envs>
+        <env name="USER" value="juanjo57" />
+        <env name="PWD" value="1919agustin" />
+        <env name="DNI" value="39754128" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="cleanTest.TestRunner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="prueba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utils.prueba" />
+      <module name="CucumberWithSelenium.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Ingresar a la categoria Comics desde la pantalla Home (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/test.feature" />
+      <option name="GLUE" value="cleanTest" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <option name="NAME_FILTER" value="^Ingresar a la categoria Comics desde la pantalla Home$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Ingresar a la categoria Comics desde la pantalla Home$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: Ingresar a la categoria Comics desde la pantalla Home" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Sacar precios farmacity" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/test.feature" />
+      <option name="GLUE" value="cleanTest" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberWithSelenium.test" />
+      <option name="NAME_FILTER" value="^Sacar precios farmacity$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Sacar precios farmacity$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Sacar precios farmacity" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner.main" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;cleanTest.TestRunner.main&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="CucumberWithSelenium-OwnFrame" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="CucumberWithSelenium-OwnFrame" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Nuevo" />
+      <item itemvalue="Application.prueba" />
+      <item itemvalue="Application.ExcelGenerator" />
+      <item itemvalue="Cucumber Java.Scenario: Sacar precios farmacity" />
+      <item itemvalue="Cucumber Java.Scenario: Ingresar a la categoria Comics desde la pantalla Home (1)" />
+      <item itemvalue="Gradle.TestRunner (1)" />
+      <item itemvalue="Gradle.TestRunner.main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: Sacar precios farmacity" />
+        <item itemvalue="Application.prueba" />
+        <item itemvalue="Gradle.TestRunner.main" />
+        <item itemvalue="Application.ExcelGenerator" />
+        <item itemvalue="Cucumber Java.Scenario: Ingresar a la categoria Comics desde la pantalla Home (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SeleniumInternalSettingsState">
+    <option name="lastFrameworkName" value="Selenium" />
+    <option name="lastLanguageId" value="JAVA" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81a530f1-ed7a-47a9-a99a-c25e9ac29d3c" name="Changes" comment="" />
+      <created>1666015595182</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666015595182</updated>
+      <workItem from="1666015596617" duration="14000" />
+      <workItem from="1666015677895" duration="3723000" />
+      <workItem from="1666029961986" duration="85000" />
+      <workItem from="1666030345469" duration="1754000" />
+      <workItem from="1666098723292" duration="9303000" />
+      <workItem from="1666113636203" duration="1294000" />
+      <workItem from="1666184750028" duration="884000" />
+      <workItem from="1666194036782" duration="9843000" />
+      <workItem from="1666357414607" duration="17069000" />
+      <workItem from="1666616665100" duration="7898000" />
+      <workItem from="1666632649437" duration="8977000" />
+      <workItem from="1666703215859" duration="7407000" />
+      <workItem from="1666789505831" duration="228000" />
+      <workItem from="1666789942274" duration="7288000" />
+      <workItem from="1666805877161" duration="5437000" />
+      <workItem from="1666811408089" duration="5566000" />
+      <workItem from="1666875809854" duration="4656000" />
+      <workItem from="1666880512695" duration="76000" />
+      <workItem from="1666880602466" duration="746000" />
+      <workItem from="1666881730841" duration="9000" />
+      <workItem from="1666881846694" duration="1014000" />
+      <workItem from="1666884466463" duration="754000" />
+      <workItem from="1666892157996" duration="5404000" />
+      <workItem from="1666959535833" duration="26664000" />
+      <workItem from="1666999022453" duration="10644000" />
+      <workItem from="1667021883409" duration="3085000" />
+      <workItem from="1667052438601" duration="32000" />
+      <workItem from="1667074136686" duration="264000" />
+      <workItem from="1667078060869" duration="961000" />
+      <workItem from="1667092580583" duration="254000" />
+      <workItem from="1667102627205" duration="10000" />
+      <workItem from="1667102811336" duration="69000" />
+      <workItem from="1667141906342" duration="88000" />
+      <workItem from="1667221575885" duration="3215000" />
+      <workItem from="1667237455882" duration="6347000" />
+      <workItem from="1667264901194" duration="19000" />
+      <workItem from="1667308191841" duration="664000" />
+      <workItem from="1667309706821" duration="8783000" />
+      <workItem from="1667324353095" duration="71000" />
+      <workItem from="1667324581836" duration="163000" />
+      <workItem from="1667324769803" duration="14000" />
+      <workItem from="1667324849478" duration="206000" />
+      <workItem from="1667325119004" duration="78000" />
+      <workItem from="1667331543460" duration="212000" />
+      <workItem from="1667395024801" duration="17732000" />
+      <workItem from="1667480800566" duration="8727000" />
+      <workItem from="1667567555587" duration="11965000" />
+      <workItem from="1667586446726" duration="2191000" />
+      <workItem from="1667770018055" duration="2194000" />
+      <workItem from="1667825215556" duration="1769000" />
+      <workItem from="1667828216145" duration="500000" />
+      <workItem from="1667828726879" duration="13747000" />
+      <workItem from="1667863595309" duration="3579000" />
+      <workItem from="1667867270682" duration="3675000" />
+      <workItem from="1667910461722" duration="47935000" />
+      <workItem from="1667961962909" duration="51000" />
+      <workItem from="1667994573127" duration="25061000" />
+      <workItem from="1668032399138" duration="2049000" />
+      <workItem from="1668034465300" duration="52000" />
+      <workItem from="1668034526668" duration="527000" />
+      <workItem from="1668035160858" duration="340000" />
+      <workItem from="1668035528652" duration="16594000" />
+      <workItem from="1668083426230" duration="42698000" />
+      <workItem from="1668169476122" duration="4230000" />
+      <workItem from="1668189235643" duration="33000" />
+      <workItem from="1668216589312" duration="133000" />
+      <workItem from="1668218355927" duration="698000" />
+      <workItem from="1668262906486" duration="15000" />
+      <workItem from="1668279681299" duration="1144000" />
+      <workItem from="1668736440808" duration="2432000" />
+      <workItem from="1668793556484" duration="624000" />
+      <workItem from="1668794629143" duration="65000" />
+      <workItem from="1668804680220" duration="643000" />
+      <workItem from="1668869436195" duration="614000" />
+      <workItem from="1668900351937" duration="18000" />
+      <workItem from="1668901784594" duration="5400000" />
+      <workItem from="1668954564611" duration="7039000" />
+      <workItem from="1668961751288" duration="3147000" />
+      <workItem from="1668965211750" duration="85000" />
+      <workItem from="1668965308188" duration="4385000" />
+      <workItem from="1668970914208" duration="629000" />
+      <workItem from="1668995563314" duration="3000" />
+      <workItem from="1669042760493" duration="20000" />
+      <workItem from="1669043002813" duration="156000" />
+      <workItem from="1669043170458" duration="7819000" />
+      <workItem from="1669066026780" duration="8808000" />
+      <workItem from="1669121880336" duration="1473000" />
+      <workItem from="1669147479145" duration="1550000" />
+      <workItem from="1669149581834" duration="1372000" />
+      <workItem from="1669221413198" duration="893000" />
+      <workItem from="1669250293312" duration="12000" />
+      <workItem from="1669765305072" duration="7243000" />
+      <workItem from="1669824333566" duration="609000" />
+      <workItem from="1669906945699" duration="27092000" />
+      <workItem from="1669985165560" duration="1677000" />
+      <workItem from="1669995585454" duration="213000" />
+      <workItem from="1669996132989" duration="667000" />
+      <workItem from="1670197152150" duration="152000" />
+      <workItem from="1670198216478" duration="986000" />
+      <workItem from="1670199305733" duration="1576000" />
+      <workItem from="1670202296677" duration="1580000" />
+      <workItem from="1670242169718" duration="2379000" />
+      <workItem from="1670264142501" duration="6160000" />
+      <workItem from="1670278347575" duration="4622000" />
+      <workItem from="1670329600989" duration="2394000" />
+      <workItem from="1670332083899" duration="4804000" />
+      <workItem from="1670418788591" duration="1177000" />
+      <workItem from="1670515658565" duration="948000" />
+      <workItem from="1670516897988" duration="94000" />
+      <workItem from="1670521062304" duration="3590000" />
+      <workItem from="1670537742955" duration="17000" />
+      <workItem from="1670722039191" duration="1889000" />
+      <workItem from="1670765866282" duration="18383000" />
+      <workItem from="1670785570559" duration="759000" />
+      <workItem from="1670803275028" duration="2639000" />
+      <workItem from="1670851153850" duration="1563000" />
+      <workItem from="1670937505073" duration="2253000" />
+    </task>
+    <task id="LOCAL-00012" summary="Ejercicio YopMail, con IFRAMES">
+      <created>1666708768811</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666708768811</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Ejercicio examen N°1">
+      <created>1666793181451</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666793181451</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Ejercicio examen N°1">
+      <created>1666793246415</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1666793246415</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Ejercicio examen N°2">
+      <created>1666815910001</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1666815910001</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Ejercicio examen N°3">
+      <created>1666882419039</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1666882419039</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Ejercicio examen N°3 corregido">
+      <created>1666882849487</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1666882849487</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Agrego nueva funcion findControls(), findControlsQuantity(),hasAttributeValue(),waitUntilElementHasHtmlAttribute().&#10;&#10;Y agrego documentacion a las funciones.">
+      <created>1666927318005</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1666927318005</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Examen ejercicio 4">
+      <created>1666972680535</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1666972680535</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Examen ejercicio 4">
+      <created>1666973431386</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1666973431386</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Examen ejercicio 4 completo">
+      <created>1666987378138</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1666987378138</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Agrego nuevo test con edit de task que no salia antes, esto es extra del examen aparte de los 6 test cases realizados para el examen">
+      <created>1667004781411</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1667004781411</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Agrego nuevo test con edit de task que no salia antes, esto es extra del examen aparte de los 6 test cases realizados para el examen pequeñas mejoras con due date y description">
+      <created>1667013463597</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1667013463597</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Pequeños cambios">
+      <created>1667226602416</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1667226602416</updated>
+    </task>
+    <task id="LOCAL-00025" summary="First Commit for clean structure">
+      <created>1667318118661</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1667318118661</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Test watcher">
+      <created>1667412674260</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1667412674260</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Evento para ejecutarse luego de test para hacer capturas cuando falla listo">
+      <created>1667771722777</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1667771722777</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Evento para ejecutarse luego de test para hacer capturas cuando falla listo">
+      <created>1667827873584</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1667827873584</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Commit inicial con estructura">
+      <created>1667828682767</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1667828682767</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Structure advance">
+      <created>1667848738091</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1667848738091</updated>
+    </task>
+    <task id="LOCAL-00031" summary="TC1 y 2 completos">
+      <created>1667854890075</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1667854890075</updated>
+    </task>
+    <task id="LOCAL-00032" summary="TC auth completos, TC settings: register(),registerAndDeleteAccount(),logOut, changelanguage and change username ready">
+      <created>1667870862663</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1667870862663</updated>
+    </task>
+    <task id="LOCAL-00033" summary="TC auth completos, TC settings: register(),registerAndDeleteAccount(),logOut, changelanguage and change username ready">
+      <created>1667870908497</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1667870908497</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Refactoring code to be cleaner, all 25 tcs preliminarly finished">
+      <created>1668022627101</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1668022627101</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Refactoring code to be cleaner part 2, all 25 tcs preliminarly finished">
+      <created>1668027049644</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1668027049644</updated>
+    </task>
+    <task id="LOCAL-00036" summary="25 tcs with parametrized test are stable in chrome">
+      <created>1668139126545</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1668139126545</updated>
+    </task>
+    <task id="LOCAL-00037" summary="exposicion terminada">
+      <created>1668175416396</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1668175416396</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Empezando a implementar cucumber en framework">
+      <created>1668908096355</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1668908096355</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Avance implemendando cucumber">
+      <created>1668961562988</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1668961562988</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Avance implemendando cucumber antes de usar node">
+      <created>1668963865948</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1668963865948</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Implementado">
+      <created>1668968707273</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1668968707273</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Optimizacion">
+      <created>1668969337900</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1668969337900</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Small changes for github actions">
+      <created>1669043453993</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1669043453993</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Small changes for github actions">
+      <created>1669044284263</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1669044284263</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Update gradle.yml">
+      <created>1669046321232</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1669046321232</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1669046529609</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1669046529609</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Testing actios and reports to be ok">
+      <created>1669046669194</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1669046669195</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Update gradle.yml">
+      <created>1669052641988</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1669052641988</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1669053084347</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1669053084347</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Testing">
+      <created>1669056479069</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1669056479069</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Testing">
+      <created>1669057532923</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1669057532924</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Testing">
+      <created>1669057759735</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1669057759735</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Testing">
+      <created>1669057968972</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1669057968972</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Linux chrome test">
+      <created>1669066246342</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1669066246342</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Linux chrome test">
+      <created>1669070867920</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1669070867920</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Linux chrome test">
+      <created>1669072337613</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1669072337613</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Final test">
+      <created>1669080679339</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1669080679339</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Iconos que no aparecian en el html resueltos">
+      <created>1669083154408</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1669083154408</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Iconos que no aparecian en el html resueltos">
+      <created>1669149837763</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1669149837763</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Funciona para dos paginas">
+      <created>1670948839740</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1670948839740</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit for clean structure" />
+    <MESSAGE value="Test watcher" />
+    <MESSAGE value="Evento para ejecutarse luego de test para hacer capturas cuando falla listo" />
+    <MESSAGE value="Commit inicial con estructura" />
+    <MESSAGE value="Structure advance" />
+    <MESSAGE value="TC1 y 2 completos" />
+    <MESSAGE value="TC auth completos, TC settings: register(),registerAndDeleteAccount(),logOut, changelanguage and change username ready" />
+    <MESSAGE value="Refactoring code to be cleaner, all 25 tcs preliminarly finished" />
+    <MESSAGE value="Refactoring code to be cleaner part 2, all 25 tcs preliminarly finished" />
+    <MESSAGE value="25 tcs with parametrized test are stable in chrome" />
+    <MESSAGE value="exposicion terminada" />
+    <MESSAGE value="Empezando a implementar cucumber en framework" />
+    <MESSAGE value="Avance implemendando cucumber" />
+    <MESSAGE value="Avance implemendando cucumber antes de usar node" />
+    <MESSAGE value="Implementado" />
+    <MESSAGE value="Optimizacion" />
+    <MESSAGE value="Small changes for github actions" />
+    <MESSAGE value="Testing actios and reports to be ok" />
+    <MESSAGE value="Update gradle.yml" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="Testing" />
+    <MESSAGE value="Linux chrome test" />
+    <MESSAGE value="Final test" />
+    <MESSAGE value="Iconos que no aparecian en el html resueltos" />
+    <MESSAGE value="Funciona para dos paginas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Funciona para dos paginas" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/utils/ExcelGenerator.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
