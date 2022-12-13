@@ -1,0 +1,106 @@
+buildscript {
+
+    repositories {
+        jcenter()
+    }
+
+
+}
+
+apply plugin: 'java'
+
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.1'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testImplementation 'org.projectlombok:lombok:1.18.22'
+    testImplementation 'org.projectlombok:lombok:1.18.22'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.5.0'
+    runtimeOnly 'org.aspectj:aspectjweaver:1.9.9.1'
+    testImplementation 'org.junit.jupiter:junit-jupiter-params:5.9.1'
+    testImplementation 'org.awaitility:awaitility:4.2.0'
+    compileOnly 'io.cucumber:cucumber-jvm-deps:1.0.6'
+    testImplementation 'io.cucumber:cucumber-junit:7.9.0'
+    implementation 'io.cucumber:cucumber-java:7.9.0'
+    implementation 'org.apache.poi:poi:5.2.3'
+    implementation 'org.apache.poi:poi-ooxml:5.2.3'
+    implementation 'ru.yandex.qatools.ashot:ashot:1.5.4'
+    implementation 'com.github.stephenc.monte:monte-screen-recorder:0.7.7.0'
+
+
+
+    testImplementation("io.cucumber:cucumber-java:latest.release") {
+        because("we want to use Cucumber JVM")
+    }
+    testImplementation("io.cucumber:cucumber-junit-platform-engine:latest.release") {
+        because("we want to use Cucumber with JUnit 5")
+    }
+    testImplementation("org.junit.platform:junit-platform-suite:latest.release") {
+        because("we want to use the JUnit 5 @Suite annotation to select/run Cucumber tests")
+    }
+    testImplementation("org.junit.jupiter:junit-jupiter-api:latest.release") {
+        because("we want to use JUnit 5 assertions")
+    }
+    testImplementation("io.github.bonigarcia:webdrivermanager:5.3.1")
+}
+
+
+// gradle clean test -PenvFile=qa.properties
+def envFile = !project.hasProperty("envFile") ? "qa.properties" : project.properties['envFile']
+//def S_USER = System.getenv('S_USER')
+test {
+    systemProperty("envFile", envFile.toString())
+    useJUnitPlatform()
+}
+
+def testSuite = !project.hasProperty("testSuite") ? "Acceptance" : project.properties['testSuite']
+def tags = tasks.register("tags", Test) {
+    systemProperty("envFile", envFile.toString())
+    systemProperty("testSuite", testSuite.toString())
+    useJUnitPlatform {
+        includeTags testSuite
+    }
+}
+
+tasks {
+    test {
+        // REQUIRED: Tell Gradle to use the JUnit 5 platform to execute tests
+        // see https://docs.gradle.org/current/userguide/java_testing.html#using_junit5
+        useJUnitPlatform {
+            // OPTIONAL: Exclude all tests (examples/scenarios) annotated with @disabled by default
+            excludeTags("disabled")
+            // OPTIONAL: Include only specified tags using JUnit5 tag expressions
+            if (project.hasProperty("includeTags")) includeTags(project.property("includeTags") as String)
+        }
+        // OPTIONAL: Ignore test failures so that build pipelines won't get blocked by failing examples/scenarios
+        ignoreFailures = true
+        // OPTIONAL: Copy all system properties from the command line (-D...) to the test environment
+        systemProperties(project.gradle.startParameter.systemPropertiesArgs)
+        // OPTIONAL: Enable parallel test execution
+        systemProperty("cucumber.execution.parallel.enabled", false)
+        // OPTIONAL: Set parallel execution strategy (defaults to dynamic)
+        systemProperty("cucumber.execution.parallel.config.strategy", "fixed")
+        // OPTIONAL: Set the fixed number of parallel test executions. Only works for the "fixed" strategy defined above
+        systemProperty("cucumber.execution.parallel.config.fixed.parallelism", 4)
+        // OPTIONAL: Enable Cucumber plugins, enable/disable as desired
+        systemProperty("cucumber.plugin", "message:build/reports/cucumber.ndjson, timeline:build/reports/timeline, html:build/reports/cucumber.html")
+        // OPTIONAL: Improve readability of test names in reports
+        systemProperty("cucumber.junit-platform.naming-strategy", "long")
+        // OPTIONAL: Don't show Cucumber ads
+        systemProperty("cucumber.publish.quiet", "true")
+        // OPTIONAL: Force test execution even if they are up-to-date according to Gradle
+        outputs.upToDateWhen { false }
+
+    }
+}
+
+
+
