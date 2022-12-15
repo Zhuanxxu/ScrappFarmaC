@@ -10,7 +10,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81a530f1-ed7a-47a9-a99a-c25e9ac29d3c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/FarmaciaPageWithOtherMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/IPageInteface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SuperPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_20_21__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2022_20_21__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/cucumber_report.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/cucumber_report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/JavaBooks.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/autorizacionesPendientes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/cuotasPendientes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/resumen_cuenta_visa_Dec_2022 (1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/resumen_cuenta_visa_Dec_2022.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cleanTest/TestBaseCucumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cleanTest/TestBaseCucumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cleanTest/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cleanTest/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cleanTest/TestWithCucumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cleanTest/TestWithCucumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/controlSelenium/Control.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/controlSelenium/Control.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/factoryBrowser/Chrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/factoryBrowser/Chrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/factoryBrowser/Headless.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/factoryBrowser/Headless.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/FarmaciaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/FarmaciaPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ExcelGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ExcelGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/test.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/qa.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/qa.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +76,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -87,13 +109,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Documents/Programacion Codigo/WebScraping/WebScraping Selenium - Farmacity&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Documents/Programacion Codigo/WebScraping/WebScraping Selenium&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;copyright.filetypes.JAVA&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -373,6 +395,11 @@
       <workItem from="1670803275028" duration="2639000" />
       <workItem from="1670851153850" duration="1563000" />
       <workItem from="1670937505073" duration="2253000" />
+      <workItem from="1670949289689" duration="746000" />
+      <workItem from="1671021579632" duration="19838000" />
+      <workItem from="1671050716127" duration="5126000" />
+      <workItem from="1671063086120" duration="5701000" />
+      <workItem from="1671105579750" duration="8334000" />
     </task>
     <task id="LOCAL-00012" summary="Ejercicio YopMail, con IFRAMES">
       <created>1666708768811</created>
@@ -761,17 +788,6 @@
     <MESSAGE value="Iconos que no aparecian en el html resueltos" />
     <MESSAGE value="Funciona para dos paginas" />
     <option name="LAST_COMMIT_MESSAGE" value="Funciona para dos paginas" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/utils/ExcelGenerator.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

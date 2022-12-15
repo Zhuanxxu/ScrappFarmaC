@@ -26,7 +26,7 @@ import static utils.ExcelGenerator.saveExcel;
 @IncludeEngines("cucumber")
 @Suite
 @SelectClasspathResource("features")
-//@ConfigurationParameter(key = Constants.FILTER_TAGS_PROPERTY_NAME, value = "@caca")
+//@ConfigurationParameter(key = Constants.FILTER_TAGS_PROPERTY_NAME, value = "@cuidadoRostro")
 @ConfigurationParameter(key = Constants.GLUE_PROPERTY_NAME, value = "cleanTest")
 @ConfigurationParameter(key = Constants.PLUGIN_PROPERTY_NAME, value = "json:docs/cucumber_report.json")
 public class TestRunner {
@@ -49,7 +49,7 @@ public class TestRunner {
     }
     @Before
     public void setUp() throws Exception {
-        Session.getInstance().getBrowser().get(GetProperties.getInstance().getHost());
+//        Session.getInstance().getBrowser().get(GetProperties.getInstance().getHost());
 
     }
 

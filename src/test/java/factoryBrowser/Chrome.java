@@ -23,7 +23,7 @@ public class Chrome implements IBrowser {
 //        options.addArguments("--headless");
         options.setExperimentalOption("prefs",preferences);
         ChromeDriver driver = new ChromeDriver(options);
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(15));
 
         //Maximizar ventana
