@@ -3,6 +3,7 @@ package cleanTest;
 
 import pages.FarmaciaPage;
 
+import pages.FarmaciaPageWithOtherMethod;
 import utils.GetProperties;
 
 import java.util.ArrayList;
@@ -18,6 +19,7 @@ public class TestBaseCucumber {
     protected String s_pwd = GetProperties.getInstance().getS_pwd();
     protected String s_dni = GetProperties.getInstance().getS_dni();;
     public FarmaciaPage farmaciaPage = new FarmaciaPage();
+    public FarmaciaPageWithOtherMethod farmaciaPage2ndMethod = new FarmaciaPageWithOtherMethod();
     List<List<String>> articulos = new ArrayList<List<String>>();
 
 

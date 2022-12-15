@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/QA-Automation-YT/selenium-cucumber-java.git"
+    "url": ""
   },
-  "author": "Santiago Sosa",
+  "author": "Agustin Spitale",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/QA-Automation-YT/selenium-cucumber-java/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/QA-Automation-YT/selenium-cucumber-java#readme",
+  "homepage": "",
   "devDependencies": {
     "multiple-cucumber-html-reporter": "^1.16.1"
   }

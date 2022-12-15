@@ -3,7 +3,9 @@ const report = require('multiple-cucumber-html-reporter');
 report.generate({
     jsonDir: './docs/',
     reportPath: './docs/',
+    pageTitle: 'Report Web Scrapping',
     openReportInBrowser: true,
+    displayDuration: true,
     metadata: {
         browser: {
             name: 'chrome',

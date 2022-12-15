@@ -1,6 +1,7 @@
 package controlSelenium;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Action;
@@ -12,6 +13,8 @@ import singletonSession.Session;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
+
+import static org.openqa.selenium.support.ui.ExpectedConditions.textToBePresentInElement;
 
 
 public class Control {
@@ -202,6 +205,18 @@ public class Control {
         // todo --> factory para instanciar el wait
         waitInstance.until(ExpectedConditions.elementToBeClickable(this.locator));
     }
+
+    //wait with JavaScript Executor
+    public static void waitAjaxToFinishAsync() throws InterruptedException {
+
+        while (true){
+            if ((Boolean) ((JavascriptExecutor) Session.getInstance().getBrowser()).executeScript("return jQuery.active == 0")){
+                break;
+            }
+            Thread.sleep(250);
+        }
+    }
+
     public void waitClickableAndClick() {
         // todo --> factory para instanciar el wait
         waitInstance.until(ExpectedConditions.elementToBeClickable(this.locator)).click();
@@ -226,12 +241,20 @@ public class Control {
 //        WebDriverWait wait = new WebDriverWait(Session.getInstance().getBrowser(), Duration.ofSeconds(10));
         waitInstance.until(ExpectedConditions.urlMatches("\\D*\\d{10}"));
     }
+    public void waitUrlToBe(String url,String num) {
+//        WebDriverWait wait = new WebDriverWait(Session.getInstance().getBrowser(), Duration.ofSeconds(10));
+        waitInstance.until(ExpectedConditions.urlMatches(url+num));
+    }
 
     /**
      * Espera a que el control tenga dentro de un ATRIBUTO un texto especifico
      */
     public void waitInvisibility() {
         waitInstance.until(ExpectedConditions.invisibilityOfElementLocated(this.locator));
+
+    }
+    public void waitTextOfElementToBe(String text) {
+        waitInstance.until(ExpectedConditions.not(textToBePresentInElement(this.control, text)));
     }
 
     public void waitIFrameToBeSwitchable() {
