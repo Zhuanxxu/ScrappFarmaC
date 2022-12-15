@@ -10,16 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81a530f1-ed7a-47a9-a99a-c25e9ac29d3c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/cucumber_report.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/cucumber_report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cleanTest/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cleanTest/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/FarmaciaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/FarmaciaPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/IPageInteface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/IPageInteface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SuperPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/SuperPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/META-INF/MANIFEST.MF" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -387,21 +378,7 @@
       <workItem from="1671050716127" duration="5126000" />
       <workItem from="1671063086120" duration="5701000" />
       <workItem from="1671105579750" duration="8455000" />
-      <workItem from="1671123044070" duration="8198000" />
-    </task>
-    <task id="LOCAL-00013" summary="Ejercicio examen N°1">
-      <created>1666793181451</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1666793181451</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Ejercicio examen N°1">
-      <created>1666793246415</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1666793246415</updated>
+      <workItem from="1671123044070" duration="8505000" />
     </task>
     <task id="LOCAL-00015" summary="Ejercicio examen N°2">
       <created>1666815910001</created>
@@ -732,7 +709,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671116479248</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Funciona para las paginas que solicito, faltaria ver como sacar los thread.sleep">
+      <created>1671143083708</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1671143083709</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;docs/cucumber_report.json&#10;#&#9;docs/index.html&#10;#&#9;src/test/java/cleanTest/TestRunner.java&#10;#&#9;src/test/java/pages/FarmaciaPage.java&#10;#&#9;src/test/java/pages/IPageInteface.java&#10;#&#9;src/test/java/pages/SuperPage.java">
+      <created>1671143184727</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1671143184727</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -750,7 +741,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Test watcher" />
     <MESSAGE value="Evento para ejecutarse luego de test para hacer capturas cuando falla listo" />
     <MESSAGE value="Commit inicial con estructura" />
     <MESSAGE value="Structure advance" />
@@ -775,7 +765,8 @@
     <MESSAGE value="Iconos que no aparecian en el html resueltos" />
     <MESSAGE value="Funciona para dos paginas" />
     <MESSAGE value="Funciona para las paginas que solicito, faltaria ver como sacar los thread.sleep" />
-    <option name="LAST_COMMIT_MESSAGE" value="Funciona para las paginas que solicito, faltaria ver como sacar los thread.sleep" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;docs/cucumber_report.json&#10;#&#9;docs/index.html&#10;#&#9;src/test/java/cleanTest/TestRunner.java&#10;#&#9;src/test/java/pages/FarmaciaPage.java&#10;#&#9;src/test/java/pages/IPageInteface.java&#10;#&#9;src/test/java/pages/SuperPage.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;docs/cucumber_report.json&#10;#&#9;docs/index.html&#10;#&#9;src/test/java/cleanTest/TestRunner.java&#10;#&#9;src/test/java/pages/FarmaciaPage.java&#10;#&#9;src/test/java/pages/IPageInteface.java&#10;#&#9;src/test/java/pages/SuperPage.java" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
