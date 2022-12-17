@@ -3,7 +3,9 @@
 - Clone the repo
 - Exc "node i"
 
-## Browser options
+## Description
+Framework para scrap de precios de farmacity usando Selenium + Cucumber + Excel
+
 
 ### Run headless Chrome
 

@@ -3,31 +3,21 @@ package cleanTest;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import singletonSession.Session;
 
-import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 import static controlSelenium.Control.waitAjaxToFinishAsync;
 import static java.lang.String.valueOf;
-import static utils.Attach.takeSnapShot;
 import static utils.ExcelGenerator.excelSheet;
 //import static utils.ExcelGenerator.excelSheet;
 
-public class TestWithCucumber extends TestBaseCucumber {
+public class Steps extends TestBaseCucumber {
 
 
 
     @Given("Entro a la pagina de farmacia")
     public void entroALaPaginaDeFarmacia(String url) {
-        System.out.println(url);
         Session.getInstance().getBrowser().get(url);
     }
 
@@ -36,6 +26,7 @@ public class TestWithCucumber extends TestBaseCucumber {
 
         do {
             farmaciaPage.addItemsToArray(articulos);
+            // uso 2 veces doble click por que sino no pasaba de pagina
             farmaciaPage.nextPageBtn.doubleClickAction();
             farmaciaPage.nextPageBtn.doubleClickAction();
             waitAjaxToFinishAsync();
@@ -61,6 +52,7 @@ public class TestWithCucumber extends TestBaseCucumber {
         articulos.clear();
         do {
             farmaciaPage.addItemsToArray(articulos);
+            // uso 2 veces doble click por que sino no pasaba de pagina
             farmaciaPage.nextPageBtn.doubleClickAction();
             farmaciaPage.nextPageBtn.doubleClickAction();
             waitAjaxToFinishAsync();
@@ -87,6 +79,7 @@ public class TestWithCucumber extends TestBaseCucumber {
         articulos.clear();
         do {
             farmaciaPage.addItemsToArray(articulos);
+            // uso 2 veces doble click por que sino no pasaba de pagina
             farmaciaPage.nextPageBtn.doubleClickAction();
             farmaciaPage.nextPageBtn.doubleClickAction();
             waitAjaxToFinishAsync();
@@ -111,6 +104,7 @@ public class TestWithCucumber extends TestBaseCucumber {
         articulos.clear();
         do {
             farmaciaPage.addItemsToArray(articulos);
+            // uso 2 veces doble click por que sino no pasaba de pagina
             farmaciaPage.nextPageBtn.doubleClickAction();
             farmaciaPage.nextPageBtn.doubleClickAction();
             waitAjaxToFinishAsync();
@@ -138,6 +132,7 @@ public class TestWithCucumber extends TestBaseCucumber {
         do {
             Thread.sleep(1000);
             farmaciaPage.addItemsToArray(articulos);
+            // uso 2 veces doble click por que sino no pasaba de pagina
             farmaciaPage.nextPageBtn.doubleClickAction();
             farmaciaPage.nextPageBtn.doubleClickAction();
             Thread.sleep(1000);
@@ -164,6 +159,7 @@ public class TestWithCucumber extends TestBaseCucumber {
         do {
             Thread.sleep(800);
             farmaciaPage.addItemsToArray(articulos);
+            // uso 2 veces doble click por que sino no pasaba de pagina
             farmaciaPage.nextPageBtn.doubleClickAction();
             farmaciaPage.nextPageBtn.doubleClickAction();
             Thread.sleep(800);
@@ -189,6 +185,7 @@ public class TestWithCucumber extends TestBaseCucumber {
         articulos.clear();
         do {
             farmaciaPage.addItemsToArray(articulos);
+            // uso 2 veces doble click por que sino no pasaba de pagina
             farmaciaPage.nextPageBtn.doubleClickAction();
             farmaciaPage.nextPageBtn.doubleClickAction();
             waitAjaxToFinishAsync();

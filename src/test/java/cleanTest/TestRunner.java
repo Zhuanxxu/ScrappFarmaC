@@ -15,14 +15,7 @@ import static utils.ExcelGenerator.initExcel;
 import static utils.ExcelGenerator.saveExcel;
 
 
-/*@Cucumber
-@CucumberOptions(
-        features = "src/test/java/features/",
-        glue = {"src/test/java/cleanTest/todoIstCucumber"},
-        plugin = {"json:test/report/cucumber_report.json"},
-        snippets = CucumberOptions.SnippetType.CAMELCASE
-//        tags = {"@backend"}
-)*/
+
 @IncludeEngines("cucumber")
 @Suite
 @SelectClasspathResource("features")
@@ -31,6 +24,9 @@ import static utils.ExcelGenerator.saveExcel;
 @ConfigurationParameter(key = Constants.PLUGIN_PROPERTY_NAME, value = "json:docs/cucumber_report.json")
 public class TestRunner {
 
+    /**
+     * Se ejecuta al final final y ejecuta un comnado en cmd para generar un reporte que usa node
+     */
     @AfterAll
     public static void after_all() {
         try {
@@ -43,16 +39,28 @@ public class TestRunner {
             ex.printStackTrace();
         }
     }
+
+    /**
+     * Se ejecuta primero e inicia el archivo excel donde se van a guardar los datos
+     */
     @BeforeAll
     public static void before_all() throws Exception{
         initExcel();
     }
+
+    /**
+     * Lo dejo por si se llega a usar pero actualmente no esta en uso
+     */
     @Before
     public void setUp() throws Exception {
 //        Session.getInstance().getBrowser().get(GetProperties.getInstance().getHost());
 
     }
 
+    /**
+     * Guarda el excel luego de la ejecucion de cada escenario y saca una screen si el test fallo
+     * por ultimo cierra el browser
+     */
     @After
     public void cleanup(Scenario scenario) throws Exception {
         saveExcel();
