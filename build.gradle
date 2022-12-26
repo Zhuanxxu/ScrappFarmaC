@@ -35,6 +35,7 @@ dependencies {
         because("we want to use the JUnit 5 @Suite annotation to select/run Cucumber tests")
     }
     testImplementation("io.github.bonigarcia:webdrivermanager:5.3.1")
+//    testImplementation 'io.cucumber:cucumber-junit:6.10.4'
 //    runtimeOnly 'org.aspectj:aspectjweaver:1.9.9.1'
 //    testImplementation 'org.awaitility:awaitility:4.2.0'
 //    compileOnly 'io.cucumber:cucumber-jvm-deps:1.0.6'
@@ -53,6 +54,7 @@ def envFile = !project.hasProperty("envFile") ? "qa.properties" : project.proper
 //def S_USER = System.getenv('S_USER')
 test {
     systemProperty("envFile", envFile.toString())
+    systemProperty 'caca', System.getProperty('caca')
     useJUnitPlatform()
 }
 
@@ -66,10 +68,22 @@ def tags = tasks.register("tags", Test) {
 }
 
 tasks {
-    test {
+}
 
+jar {
+    manifest {
+        attributes('Main-Class': 'nuevo')
     }
 }
 
 
 
+task hello  {
+
+    println 'hello, world'
+    println System.getProperty("casa")
+    if (project.hasProperty("args")) {
+        println "Our input argument with project property ["+project.getProperty("args")+"]"
+    }
+    println "Our input argument with system property ["+System.getProperty("args")+"]"
+}

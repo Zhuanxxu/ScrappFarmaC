@@ -9,161 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81a530f1-ed7a-47a9-a99a-c25e9ac29d3c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/assets/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/css/dataTables.bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/css/responsive.dataTables.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/img/ghost.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/js/Chart.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/js/Chart.style.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/js/darkmode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/js/dataTables.bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/js/dataTables.responsive.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/js/html5shiv.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/js/jquery-3.2.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/js/jquery.dataTables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/js/respond.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/cucumber_report.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/07248ba8-dfb0-495e-950c-e99b795bc7a3-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/0ac8e25c-ce63-486c-8fbb-973c9119472a-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/0e8a9419-44d7-47e9-b4ad-279f7e1bfa85-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/0eb87bb1-03bc-41fa-91d6-84f004fd4ad5-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/0fe039b0-9790-4cc1-b48c-353312c31a4f-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/10ec1e7d-9243-49e5-ae0d-89eb7ed645c8-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/12be0d24-e7ac-477b-9067-9bef3c732d00-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/14f88726-3f37-4d14-bf2f-08879f27f0b0-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/15d18ffd-9ee4-4d1a-af3a-c347ed85ef46-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/176e1f51-b048-4c7b-9d72-fe83921650e5-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/1a2a33c5-de60-4e71-a646-7c52fa3221d7-scrapper-de-gastos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/1aaedd98-7efe-42fc-b6c6-4e2fa69be0fb-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/1af2ba82-bb77-4ffd-963d-83300b6937a5-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/2477add7-adb1-4d40-85a8-1f1c3d0fc8ee-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/28c52e6e-4283-4824-906b-46301ffbf9bd-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/2a1097f9-6e02-4c48-b4e6-4a8595ce6691-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/2ba46a4d-3cb9-4082-86c2-aee638a20142-scrapper-de-gastos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/2ce4c878-b2f9-4609-93c3-c95f076f88f8-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/2e068768-7355-489c-905a-dd198ec17894-scrapper-de-gastos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/304d95ac-34e3-448e-bee2-6f5b8519e027-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/317046ec-e082-4bd5-8840-17af7da2dd81-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/32724699-5f05-4a63-895e-65569271efd8-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/33436bd7-8a99-4952-9753-3bc60111ba97-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/3586da3f-f857-4feb-95ac-21fb2e03e020-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/369dd8d3-24aa-42fa-b481-55578651f2fe-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/37ace0df-1e86-4049-9b90-56b14e08d842-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/39150d83-03e2-415e-a925-6622fa661785-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/3cc47573-39bc-47e9-9d94-8465f9e38287-scrapper-de-gastos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/3d9a132f-9d70-4d9c-affb-22aafd8b9b1d-scrapper-de-gastos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/3e9da580-6267-4ef1-856a-047d382f13d4-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/43f507a3-4694-4650-ba5f-783243675fc1-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/45ccc902-ab1e-4a5c-9185-04e1306434db-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/4727d588-8b57-4e11-b374-647976e01c64-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/49a740ab-d19e-4da8-8495-af49f7d2cf56-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/49f0e616-1898-4c60-bbad-34b188906e0f-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/4aa8e308-5034-4efd-8c9c-6d0d79c0d788-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/4abe2963-41a9-414e-9e3e-4afc37ec1ea7-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/4ae73966-2ff4-4238-8652-8e9a15103d5a-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/4af0c5db-2482-4bb1-80fb-357fc00c363e-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/4d0d89b3-b96b-4d0f-9542-812efef99e0d-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/5730ad7f-8093-485d-9106-0bc3c982a675-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/585f1309-8030-4cff-aef1-bc1428a8555f-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/5a33260f-aec9-4a26-b8f3-e9b49e5f109f-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/5f40a87d-8d84-4bc6-ad46-33044adf8716-scrapper-de-gastos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/639979b9-7b19-4c20-9ec0-880451094b6c-scrapper-de-gastos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/641322a9-0ec1-40bd-bb42-f29d0ba5359e-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/6dcb7744-beef-4285-aca0-82de6250de5f-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/6e0f695d-b042-4ab3-88fc-f55844c4e91c-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/6e14447d-be4e-4eae-af52-ce5c060375bd-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/6f568f2f-166c-4412-ab75-e1d976d877ec-scrapper-de-gastos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/6f6552e2-6829-4baa-bde1-de0403d98bc3-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/722b135c-b89e-472a-a1cd-7feeda4cbed7-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/72c54bd7-cbf0-4661-b6f0-52acc264a25d-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/72d240dc-714d-46f3-a0e2-45206b011e61-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/7331f684-bd99-4810-9889-43b374638de6-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/775fe5ed-40e4-42fc-9669-4a169596cf16-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/77742e21-dc6c-49a1-b033-aba2b03ba1ca-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/78d5363d-577f-4773-9b03-4c057013046a-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/7bb035cb-37f2-485f-b1c2-8624b8158505-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/7e042218-1a9a-4ba6-8c1a-491a3a9645ba-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/83df9f4d-1d26-45b8-b703-9320cbe98151-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/84648d24-5b72-4f5f-8602-a8fb0e4025a6-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/85394b21-d84b-480a-af16-12bf40c37709-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/866f666d-2c48-4342-bf15-ac1e9fbe0c85-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/86df07ba-05c6-47b4-aec3-cd5c6cc95598-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/88594713-2626-48e3-97d7-93694402b1d6-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/8c8c2394-f6d2-4ad0-9e85-944b150ad166-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/8d1618a2-6901-4b87-85b7-e3c028fe4bd2-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/8d4b5cc2-7c78-47b7-9342-5276fc83088f-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/9325b072-ecd9-4913-846a-189321fe217e-scrapper-de-gastos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/956f6af9-e848-42e7-9e09-2f1540131f4d-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/970923f1-7f7f-4a62-b595-1745966a55c4-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/97bb3cdc-35ec-41e6-8d72-6a883721ed07-scrapper-de-gastos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/988e81b6-e6a7-4aee-ba1d-28cb343140c1-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/a034f40c-fb2f-4f17-944e-284300c4f464-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/a0922caf-ee76-4010-a165-b9f5b368d805-scrapper-de-gastos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/a20954f2-cac6-4707-a57e-a82a13e1874d-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/a6462b76-5b81-4097-8d6e-6f75cf154d93-scrapper-de-gastos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/a735b726-ccf7-466a-a984-4b4d5c3681a4-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/a92ae537-beb6-4d36-ba4d-0b4b6f8232b3-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/ab18988c-d5fe-4b60-9dc4-68312f73ec36-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/ac980895-d738-44c3-856c-2676fb9cbc73-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/ae7ec385-62b2-4da5-9e4e-5de88a1e7a93-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/b01b1bef-3be5-48d2-9dfd-d28e63bada41-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/b0eedda9-731d-41ce-b225-4dd90a71ba73-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/b0fe0b94-0051-4f3d-a223-4d936e0823fe-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/b3f397fe-5561-4862-81cf-2ab73afe888a-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/b6770539-82d0-46aa-b55e-01fad50db7f4-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/bf53c771-f744-4462-8160-f199fd6da6fc-scrapper-de-gastos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/c488caa2-f40f-42f3-bb27-d0f53df8bcba-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/c4a24a34-5fbb-4626-928c-80c15d6f94ee-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/c5c12990-a8f0-456a-851a-f0df91f704ad-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/c6b1e66a-95b0-4928-a9f6-faa431ef60de-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/c6f17bf7-b2e8-4135-addd-a46b3434360a-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/c72c1fff-5ac2-44e9-866d-c7d5802b6e37-scrapper-de-gastos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/c92ccc57-1c38-4a2d-94b7-6c83f51098d9-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/ca19b352-3008-42e8-a30b-d3a2f491328e-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/ca813fd6-3cfc-4013-abff-432637b36b01-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/cdc96c30-a8b5-4bfa-b5f1-a0dea328bd9e-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/d0ac8191-bcbf-4acd-b003-a64b6c19a4ab-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/d2bbbfba-88b7-4e6f-8257-41fdf46eb248-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/d37acca2-4d1c-4115-9666-f65171ae3fd7-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/d9ab5026-fa76-4550-ab54-a9cc41b56d75-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/da669ee9-8827-4cbb-8550-0bda4c680a16-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/dbb46f7b-da76-4b76-b2b8-f82e51211f83-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/ddffe145-81e7-4a81-919f-8d348b2fe497-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/de62efba-59c4-44ee-9c47-817de5afc9e7-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/e0b0232a-7f80-48b6-b39e-5911431dad4e-scrapper-de-gastos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/e41efdfe-bdda-4dab-a445-f9f2e9cba79e-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/e423dec9-25b6-4851-9290-9b4d3d3c139b-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/e488ab83-cfc4-4cbc-829c-3867b32a1c71-scrapper-de-gastos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/e789b5c5-ccc1-470b-a7e2-2a211cad4865-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/ea0d74a4-c0ab-4e43-a920-839db360c497-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/eb136b86-c672-4363-9885-fcb30f1c6951-scrapper-de-gastos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/ec7a0648-6a19-4309-be11-8917ef0ffebf-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/edd976e1-3b77-4826-bd99-cc9c3b2f47d6-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/edf1e093-94e3-461f-bc3a-d4f11c6d6678-categoria-comics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/eed2348d-159f-4499-9d2f-20ed7f687362-scrapper-de-gastos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/effc5086-1611-4c5a-9958-f6818ad3b0b6-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/f13cbc67-b9dc-4f0b-8966-39663c4a9bc4-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/f56f6377-a48a-4fbc-8d2d-5f3bad0cf334-scrapper-de-gastos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/f8889203-78fd-40ea-8c53-22aedb59fb29-scrapper-de-gastos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/faddbfe9-ca7e-41e8-8f7d-8c68563b442a-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/fb53095d-b318-4cd1-bb97-dcb0719f2974-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/fe5c93d2-0ac5-4f9c-8e98-6350c0150b0e-scrapper-de-precios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
+    <list default="true" id="81a530f1-ed7a-47a9-a99a-c25e9ac29d3c" name="Changes" comment="pequeños cambios">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/JavaBooks.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/output/JavaBooks.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cleanTest/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cleanTest/Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cleanTest/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cleanTest/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ExcelGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ExcelGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,22 +86,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Documents/Programacion Codigo/your-own-tests",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Documents/Programacion Codigo/selenium-test-automation-boilerplate&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Documents\Programacion Codigo\CucumberWithSelenium-OwnFrame" />
@@ -532,20 +385,14 @@
       <workItem from="1671063086120" duration="5701000" />
       <workItem from="1671105579750" duration="8455000" />
       <workItem from="1671123044070" duration="8505000" />
-    </task>
-    <task id="LOCAL-00016" summary="Ejercicio examen N°3">
-      <created>1666882419039</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1666882419039</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Ejercicio examen N°3 corregido">
-      <created>1666882849487</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1666882849487</updated>
+      <workItem from="1671309365247" duration="1587000" />
+      <workItem from="1671798585070" duration="2702000" />
+      <workItem from="1671803143294" duration="3014000" />
+      <workItem from="1671806658717" duration="5894000" />
+      <workItem from="1671897586716" duration="519000" />
+      <workItem from="1672058592110" duration="6049000" />
+      <workItem from="1672066533352" duration="744000" />
+      <workItem from="1672084802530" duration="121000" />
     </task>
     <task id="LOCAL-00018" summary="Agrego nueva funcion findControls(), findControlsQuantity(),hasAttributeValue(),waitUntilElementHasHtmlAttribute().&#10;&#10;Y agrego documentacion a las funciones.">
       <created>1666927318005</created>
@@ -876,7 +723,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671298407814</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="pequeños cambios">
+      <created>1671298571122</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1671298571122</updated>
+    </task>
+    <task id="LOCAL-00066" summary="pequeños cambios">
+      <created>1671298699755</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1671298699755</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

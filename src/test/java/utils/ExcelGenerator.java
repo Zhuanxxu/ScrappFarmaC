@@ -87,13 +87,6 @@ public static void main(String[] args) throws IOException {
                         cell.setCellValue("");
                     }
                 }
-
-               /* if (field instanceof String)
-                    cell.setCellValue((String) field);*/
-            /*    if (styleCount<5) {
-                    cell.setCellStyle(headerStyle);
-                    ++styleCount;
-                }*/
             }
         }
         ++rowCount;

@@ -15,7 +15,6 @@ import static utils.ExcelGenerator.excelSheet;
 public class Steps extends TestBaseCucumber {
 
 
-
     @Given("Entro a la pagina de farmacia")
     public void entroALaPaginaDeFarmacia(String url) {
         Session.getInstance().getBrowser().get(url);
@@ -177,6 +176,7 @@ public class Steps extends TestBaseCucumber {
 
     @Given("Entro a la pagina de cuidado solar")
     public void entroALaPaginaDeCuidadoSolar(String url) {
+        System.out.println(System.getProperty("casa"));
         Session.getInstance().getBrowser().get(url);
     }
 
